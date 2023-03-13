@@ -55,3 +55,40 @@ section p {
 section img {
     margin-right: 32px;
 }
+
+.lista-vinhos{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.lista-vinhos li {
+    list-style: none;
+    max-width: 20%;
+}
+
+.lista-vinhos img {
+    max-width: 100%;
+}
+
+.lista-vinhos li h3 {
+    margin: 16px 0;
+}
+
+.lista-vinhos li button {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    background-color: rgb(170, 1, 1);
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    font-style:italic;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.lista-vinhos li strong {
+    margin: 16px 0;
+    display: block;
+} 
