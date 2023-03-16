@@ -92,3 +92,55 @@ section img {
     margin: 16px 0;
     display: block;
 } 
+
+@media screen and (max-width:767px) {
+    .container{
+        max-width: 90%;
+    }
+
+    header .container,
+section .container {
+    display: block;
+    
+}
+
+header .container {
+    flex-direction: column;
+}
+
+header nav li {
+    display: block;
+
+}
+
+section img {
+    max-width: 100%;
+}
+
+.lista-vinhos li {
+    max-width: 100%;
+}
+
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .container{
+        max-width: 90%;
+    }
+
+    section img {
+        max-width: 100%;
+    }
+
+    header .container,
+    section .container {
+        display: block;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .lista-vinhos li{
+        max-width: 45%;
+        float: left;
+    }
+}
